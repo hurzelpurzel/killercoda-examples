@@ -7,6 +7,7 @@ Download and uncompress the archive. It contains a small binary file named kamel
 ```
 wget https://github.com/apache/camel-k/releases/download/v1.9.2/camel-k-client-1.9.2-linux-64bit.tar.gz
 tar -xzf *.tar.gz
+cp ./kamel /usr/bin
 ```{{exec}}
 
 
