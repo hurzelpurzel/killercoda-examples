@@ -41,4 +41,4 @@ You should see the tiny size of our already built image, compared to the golang 
 
 ### Run the image
 Check the Hello World out put
-`docker run hurzelpurzel/hello-world:latest`
+`docker run hurzelpurzel/hello-world:latest`{{exec}}
