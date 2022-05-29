@@ -12,7 +12,8 @@
       },
       "intro": {
         "text": "init/init.md"
-      },
+      }
+    },
     "backend": {
       "imageid": "ubuntu"
     }
