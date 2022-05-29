@@ -12,6 +12,7 @@ This helps executable keep the image small.
 cat > Dockerfile << EOF
 FROM golang:1.16 as builder
 WORKDIR /go/src/
+RUN go mod init main
 COPY main.go ./
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o app .
 
