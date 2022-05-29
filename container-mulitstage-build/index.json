@@ -3,7 +3,7 @@
     "details": {
         "steps": [
         {
-          "title": "Run the Istio Helloworld sample",
+          "title": "Try a Multi stage build",
           "text": "step1/text.md"
         }
       ],
