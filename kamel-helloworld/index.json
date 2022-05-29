@@ -1,0 +1,29 @@
+{
+  "title": "Kamel Hello World",
+  "description": "Install and use Apache Camel with the kamel toolkit",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install kamel and the operator",
+        "text": "step1.md"
+      },
+     {
+      "title": "Deploy hello Worl integration",
+      "text": "step2.md"
+     }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },"assets": {
+      "host01": [
+        {"file": "HelloWorld.java", "target": "~/src", "chmod": "744"}
+       ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
