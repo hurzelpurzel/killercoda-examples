@@ -1,5 +1,18 @@
 {
     "title": "Container Multistage Build",
+    "details": {
+        "steps": [
+        {
+          "title": "Run the Istio Helloworld sample",
+          "text": "step1/text.md"
+        }
+      ],
+      "finish": {
+        "text": "finish/finish.md"
+      },
+      "intro": {
+        "text": "init/init.md"
+      },
     "backend": {
       "imageid": "ubuntu"
     }
