@@ -18,7 +18,7 @@
       "imageid": "ubuntu"
     },"assets": {
         "host01": [
-          {"file": "main.go"}
+          {"file": "main.go", "target": "/workdir", "chmod": "744"}
          ]
     }
   }
