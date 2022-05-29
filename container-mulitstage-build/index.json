@@ -16,5 +16,9 @@
     },
     "backend": {
       "imageid": "ubuntu"
+    },"assets": {
+        "host01": [
+          {"file": "main.go", "target": "/root", "chmod": "744"}
+         ]
     }
   }
