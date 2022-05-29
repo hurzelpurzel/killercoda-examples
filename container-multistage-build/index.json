@@ -1,6 +1,5 @@
 {
     "title": "Container Multistage Build",
-    "author": "Ludger Pottmeier",
     "details": {
         "steps": [
         {
@@ -9,11 +8,9 @@
         }
       ],
       "finish": {
-        "title": "Done..",
         "text": "finish/finish.md"
       },
       "intro": {
-        "title": "Why do we need it ?",
         "text": "init/init.md"
       },"assets": {
         "host01": [
