@@ -3,10 +3,14 @@
 
 
 
-### Mulitstage Docker file
+## Mulitstage Docker file
 The  multistage dockerfile combines 2 in one. 
 The second part uses the assets from the first by in a COPY --from directive.
 This helps executable keep the image small.
+
+### Create the dockerfile
+Execute the following, to create the dockerfile, the hello world programm was 
+prepared for you before.
 
 ```
 cat > Dockerfile << EOF
@@ -26,6 +30,15 @@ EOF
 ```{{exec}}
 
 
-
 ### Build file
+Now let's build our image
 `docker build -t hurzelpurzel/hello-world:latest .`{{exec}}
+
+### Check size
+You should see the tiny size of our already built image, compared to the golang image containing all the build tools, when you list the images.
+
+`docker images `{{exec}}
+
+### Run the image
+Check the Hello World out put
+`docker run hurzelpurzel/hello-world:latest`
