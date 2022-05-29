@@ -12,13 +12,13 @@
       },
       "intro": {
         "text": "init/init.md"
+      },"assets": {
+        "host01": [
+          {"file": "main.go", "target": "/root", "chmod": "744"}
+         ]
       }
     },
     "backend": {
       "imageid": "ubuntu"
-    },"assets": {
-        "host01": [
-          {"file": "main.go", "target": "/workdir", "chmod": "744"}
-         ]
     }
   }
