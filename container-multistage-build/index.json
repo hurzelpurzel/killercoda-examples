@@ -1,16 +1,19 @@
 {
     "title": "Container Multistage Build",
+    "author": "Ludger Pottmeier",
     "details": {
         "steps": [
         {
-          "title": "Try a Multi stage build",
+          "title": "Your first multi stage build",
           "text": "step1/text.md"
         }
       ],
       "finish": {
+        "title": "Done..",
         "text": "finish/finish.md"
       },
       "intro": {
+        "title": "Why do we need it ?",
         "text": "init/init.md"
       },"assets": {
         "host01": [
