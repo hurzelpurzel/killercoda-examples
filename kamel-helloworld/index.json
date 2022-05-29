@@ -1,6 +1,6 @@
 {
-  "title": "Kamel Hello World",
-  "description": "Install and use Apache Camel with the kamel toolkit",
+  "title": "Camel K Hello World",
+  "description": "Install and use Apache Camel K on K8s with the kamel toolkit",
   "details": {
     "intro": {
       "text": "intro.md"
