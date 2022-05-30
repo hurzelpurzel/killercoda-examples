@@ -19,7 +19,8 @@
       "text": "finish.md"
     },"assets": {
       "host01": [
-        {"file": "HelloWorld.java", "target": "~/src", "chmod": "744"}
+        {"file": "HelloWorld.java", "target": "~/src", "chmod": "744"},
+        {"file": "registry-pod.yaml", "target": "~/assets", "chmod": "744"}
        ]
     }
   },

@@ -11,7 +11,7 @@ cp ./kamel /usr/bin
 ```{{exec}}
 
 
-# Prerquisite: create a Image rgistry account
+# Prerequisite: create a Image registry account
 For this deme we need an external docker registry to push the Hello Word Image, if you don't have one, you can create a fre account for example at https://jfrog.com/container-registry
 
 
